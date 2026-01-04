@@ -1,4 +1,7 @@
 # KeyboardStop - 游戏输入法锁定工具
+# 下载链接
+https://lingfengqaq.lanzoub.com/b032djlbgh
+密码:9956
 
 Windows 10/11 轻量常驻托盘程序，通过全局快捷键实现"强制英文输入"与"恢复原输入法"的快速切换。
 
