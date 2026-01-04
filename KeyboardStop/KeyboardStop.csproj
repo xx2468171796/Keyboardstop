@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>KeyboardStop</AssemblyName>
+    <RootNamespace>KeyboardStop</RootNamespace>
+    
+    <!-- 应用程序图标 -->
+    <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+    
+    <!-- 单文件发布配置 -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    
+    <!-- 版本信息 -->
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>KeyboardStop</Company>
+    <Product>游戏输入法锁定工具</Product>
+    <Description>Windows 游戏输入法锁定工具 - 通过全局快捷键锁定英文输入</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\wechat_qr.jpg" />
+  </ItemGroup>
+
+</Project>
